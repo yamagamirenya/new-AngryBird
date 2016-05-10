@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B66B0D0B-5C72-AA86-EDA6-C9EADDBA3FD7}") = "Angrybird.git", "Assembly-CSharp-firstpass.csproj", "{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}"
+EndProject
+Project("{B66B0D0B-5C72-AA86-EDA6-C9EADDBA3FD7}") = "Angrybird.git", "Assembly-CSharp.csproj", "{225B3453-0237-1EFF-B45E-18AC24B83FBA}"
+EndProject
+Project("{B66B0D0B-5C72-AA86-EDA6-C9EADDBA3FD7}") = "Angrybird.git", "Assembly-CSharp-Editor.csproj", "{C630B7BE-2D5A-C188-6B14-15DF616DA261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225B3453-0237-1EFF-B45E-18AC24B83FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225B3453-0237-1EFF-B45E-18AC24B83FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225B3453-0237-1EFF-B45E-18AC24B83FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225B3453-0237-1EFF-B45E-18AC24B83FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C630B7BE-2D5A-C188-6B14-15DF616DA261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C630B7BE-2D5A-C188-6B14-15DF616DA261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C630B7BE-2D5A-C188-6B14-15DF616DA261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C630B7BE-2D5A-C188-6B14-15DF616DA261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
