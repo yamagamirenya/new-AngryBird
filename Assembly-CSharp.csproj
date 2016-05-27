@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{225B3453-0237-1EFF-B45E-18AC24B83FBA}</ProjectGuid>
+    <ProjectGuid>{5F6EBEBB-6242-9B43-DC5B-5502476E3F05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,7 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\ButtonScript\ResetButton.cs" />
      <Compile Include="Assets\ButtonScript\StartButton.cs" />
-     <Compile Include="Assets\Spring.cs" />
+     <Compile Include="Assets\HeroAction\GameFinish.cs" />
+     <Compile Include="Assets\HeroAction\Spring.cs" />
+     <Compile Include="Assets\Score\PointAction.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -61,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{DE16D11B-C38D-2316-0E58-BC19CDD8FDB5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{B0C4ADED-4C8D-7ACA-F277-082F425F3089}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
